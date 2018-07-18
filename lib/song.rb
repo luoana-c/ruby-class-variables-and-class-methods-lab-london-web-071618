@@ -1,4 +1,5 @@
 class Song 
   @@count = 0
-  def 
+  def initialize(name)
+  end 
 end 
