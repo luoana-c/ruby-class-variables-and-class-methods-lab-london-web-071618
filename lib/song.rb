@@ -20,5 +20,6 @@ class Song
     end
   end 
   
+  def count 
  
 end 
