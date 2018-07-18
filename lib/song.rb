@@ -18,6 +18,7 @@ class Song
       @@genre_count[genre] = 0
     end 
     @@genre_count[genre] += 1
+    
   end 
   
   
