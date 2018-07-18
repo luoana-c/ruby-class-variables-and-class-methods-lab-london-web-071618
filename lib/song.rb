@@ -7,6 +7,6 @@ class Song
     @artist = artist
     @genre = genre
     @@artists << artist
-    @@genres << genre
+    @@genres << genre 
   end 
 end 
