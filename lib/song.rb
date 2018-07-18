@@ -2,6 +2,7 @@ class Song
   @@count = 0
   @@artists = []
   @@genres = []
+  @@genre_count = {}
   
   attr_reader :name, :artist, :genre 
   
@@ -12,6 +13,10 @@ class Song
     @@artists << artist
     @@genres << genre 
     @@count += 1
+    if @@genre_count[genre] == nil
+      @@genre_count[genre] = 1
+    end 
+    @@genre_count[genre] += 1
   end 
   
   
@@ -28,4 +33,5 @@ class Song
   end 
  
   def self.genre_count
+    
 end 
