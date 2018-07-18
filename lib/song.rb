@@ -11,5 +11,10 @@ class Song
     @@genres << genre 
   end 
   
+  def self.artists 
+    @@artists.each do |artist|
+      puts artist
+  end 
   
+  def 
 end 
