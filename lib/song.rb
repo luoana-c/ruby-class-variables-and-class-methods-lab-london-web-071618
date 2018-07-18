@@ -14,6 +14,7 @@ class Song
   def self.artists 
     @@artists.each do |artist|
       puts artist
+    end
   end 
   
  
