@@ -16,8 +16,7 @@ class Song
   
   
   def self.artists 
-    @@artists.each do |artist|
-      puts artist
+    @@artists.
     end
   end 
   
@@ -25,5 +24,6 @@ class Song
     @@count
     
   end 
+ 
  
 end 
